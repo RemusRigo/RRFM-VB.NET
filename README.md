@@ -28,7 +28,7 @@ A Windows tool that copies/updates the content of a file to a group of selected 
 
 ## Statistics
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/SysPurge-VBNET/total)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/RRFM-UpdateMyFile-VBNET/total)
 
 
 
