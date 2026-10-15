@@ -29,10 +29,12 @@ See the [User's Guide](UsersGuide.md) for downloads, installation and usage.
 ## Statistics
 
 ![VB.NET](https://img.shields.io/badge/Language-VB.NET-blue)
+![.NET8.0](https://img.shields.io/badge/Runtime-.NET%208.0-lightblue)
+![.NET10.0](https://img.shields.io/badge/Runtime-.NET%2010.0-lightblue)
 ![VS](https://img.shields.io/badge/IDE-Visual%20Studio-purple)
 ![JSON](https://img.shields.io/badge/File-JSON-yellow)
 <br>
-![status](https://img.shields.io/badge/status-in%20progress-orange) 
+![status](https://img.shields.io/badge/status-on%20hold-yellow)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/RRFM-VB.NET/total)
 
 
