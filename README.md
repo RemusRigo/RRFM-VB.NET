@@ -1,4 +1,5 @@
 # RRFM
+
 RRFM: Remus Rigo File Manager, a two-panel file manager for Windows
 
 
@@ -41,4 +42,23 @@ See the [User's Guide](UsersGuide.md) for downloads, installation and usage.
 
 ## Roadmap
 
-* Project started
+* 2026-10-29: Fix: Logic in LoadPath: leftPath and rightPath didn't save the current path correctly
+* 2026-10-29: Upd: Moved all data/procedures/functions to the FileManager class
+* 2026-10-29: Add: Display total number of selected files & folders
+* 2026-10-29: Add: [F7] key: Create folder
+* 2026-10-29: Fix: At startup when loading left and right paths, they must be activated first
+* 2026-10-29: Upd: Change from ActiveListView to ActivePanel
+* 2026-10-29: Fix: when a panel is clicked mark it as active
+* 2026-10-29: Upd: Moved some UI functions to a new module, so main form's code looks much readable/cleaner
+* 2026-10-28: Add: UI: Selected panel has a border, the other has no border
+* 2026-10-28: Add: [INS] key: Select files/folders
+* 2026-10-28: Fix: Drive not showing: always use UpperCase
+* 2026-10-28: Add: Populate drive ComboBox for Left/Right panels
+* 2026-10-28: Add: Display current path for Left/Right panels
+* 2026-05-06: Add: Settings load/save default window size/position
+* 2026-05-06: Add: Save/Load settings in JSON file, so app can be portable
+* 2026-05-05: Add: Double click on a file/fonder inside the ListView
+* 2026-05-05: Add: Looad path for Left/Right panels
+* 2026-05-05: Add: Design UI
+* 2026-05-05: Project started
+

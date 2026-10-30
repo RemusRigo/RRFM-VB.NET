@@ -9,16 +9,15 @@ Imports System.IO
 
 Module SettingsJSON
 
-   Public Class AppSettings
-      Public Property appLocation As Point = New Point(Screen.PrimaryScreen.WorkingArea.Width \ 2 - 400,
-              Screen.PrimaryScreen.WorkingArea.Height \ 2 - 300)
-      Public Property appSize As Size = New Size(1024, 640)
-      Public Property splitter As Integer = appSize.Width \ 2
-      Public Property pathLeft As String = Environment.ExpandEnvironmentVariables("%USERPROFILE%")
-      Public Property pathRight As String = Environment.ExpandEnvironmentVariables("%TEMP%")
-   End Class
+    Public Class AppSettings
+        Public Property appLocation As Point = New Point(Screen.PrimaryScreen.WorkingArea.Width \ 2 - 400, Screen.PrimaryScreen.WorkingArea.Height \ 2 - 300)
+        Public Property appSize As Size = New Size(1024, 640)
+        Public Property splitter As Integer = appSize.Width \ 2
+        Public Property pathLeft As String = Environment.ExpandEnvironmentVariables("%USERPROFILE%")
+        Public Property pathRight As String = Environment.ExpandEnvironmentVariables("%TEMP%")
+    End Class
 
-   Private ReadOnly SettingsPath As String = Path.Combine(Application.StartupPath, "RRFM.json")
+    Private ReadOnly SettingsPath As String = Path.Combine(Application.StartupPath, "RRFM.json")
 
    Function Load() As AppSettings
       Try
