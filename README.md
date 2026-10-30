@@ -35,7 +35,7 @@ See the [User's Guide](UsersGuide.md) for downloads, installation and usage.
 ![VS](https://img.shields.io/badge/IDE-Visual%20Studio-purple)
 ![JSON](https://img.shields.io/badge/File-JSON-yellow)
 <br>
-![status](https://img.shields.io/badge/status-on%20hold-yellow)
+![status](https://img.shields.io/badge/status-in%20progress-orange)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/RRFM-VB.NET/total)
 
 
