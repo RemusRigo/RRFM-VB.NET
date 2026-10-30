@@ -42,6 +42,7 @@ See the [User's Guide](UsersGuide.md) for downloads, installation and usage.
 
 ## Roadmap
 
+* 2026-10-29: Add: Build Form & UI for Copy/Move files
 * 2026-10-29: Fix: Logic in LoadPath: leftPath and rightPath didn't save the current path correctly
 * 2026-10-29: Upd: Moved all data/procedures/functions to the FileManager class
 * 2026-10-29: Add: Display total number of selected files & folders
@@ -62,3 +63,7 @@ See the [User's Guide](UsersGuide.md) for downloads, installation and usage.
 * 2026-05-05: Add: Design UI
 * 2026-05-05: Project started
 
+## ToDo
+
+* frmCopyMove & Settings : AutoStart and AutoClose form
+* frmCopyMove & Settings : Always overwrite

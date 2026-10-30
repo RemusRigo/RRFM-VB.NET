@@ -73,33 +73,4 @@ Public Class FileManager
         Return False ' If code reaches here, an exception happened
     End Function
 
-    '----------------------------------------------------------------------------------------------
-    ' CopyItems
-    Public Function CopyItems(items As IEnumerable(Of String), destinationPath As String) As Boolean
-        Try
-            For Each item In items
-                If File.Exists(item) Then
-                    Dim destFile As String = Path.Combine(destinationPath, Path.GetFileName(item))
-                    File.Copy(item, destFile, True)
-                ElseIf Directory.Exists(item) Then
-                    CopyDirectory(item, Path.Combine(destinationPath, Path.GetFileName(item)))
-                End If
-            Next
-            Return True
-        Catch ex As Exception
-            MessageBox.Show(ex.Message)
-            Return False
-        End Try
-    End Function
-
-    Private Sub CopyDirectory(sourceDir As String, targetDir As String)
-      Directory.CreateDirectory(targetDir)
-      For Each _file In Directory.GetFiles(sourceDir)
-         File.Copy(_file, Path.Combine(targetDir, Path.GetFileName(_file)), True)
-      Next
-      For Each _dir In Directory.GetDirectories(sourceDir)
-         CopyDirectory(_dir, Path.Combine(targetDir, Path.GetFileName(_dir)))
-      Next
-   End Sub
-
 End Class
